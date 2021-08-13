@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>QUIZ: Programming Language</title>
+</head>
+<body>
+  <div class="container">
+    <h1><strong>What Programming Language Should You Learn?</strong></h1>
+
+    <form id="quiz">
+    
+      <div id="nameWhat">
+        <h3>What is your name?</h3>
+        <input type="text" id="name" class="form-control">
+      </div>
+
+      <div id="howOld">
+        <h3>What is your age?</h3>
+        <select class="form-control" id="age">
+          <option value="50">0-20</option>
+          <option value="20">21-40</option>
+          <option value="1">41-60</option>
+          <option value="1">61 and up</option>
+        </select>
+      </div>
+
+      <div id="school">
+        <h3>What is your favorite school subject?</h3>
+        <div class="radio" id=art>
+          <input type="radio" value="20" checked>
+          <label for="art">Art</label>
+        </div>
+        <div class="radio" id="math">
+          <input type="radio" value="10">
+          <label for="math">Math</label>
+        </div>
+        <div class="radio" id="history">
+          <input type="radio" value="1">
+          <label for="history">History</label>
+        </div>
+        <div class="radio" id="music">
+          <input type="radio" value="50">
+          <label for="music">Music</label>
+        </div>
+      </div>
+
+      <div id="season">
+        <h3>What is your favorite season?</h3>
+        <div class="radio" id="summer">
+          <input type="radio" value="1" checked>
+          <label for="summer">Summer</label>
+        </div>
+        <div class="radio" id="fall">
+          <input type="radio" value="20">
+          <label for="fall">Fall</label>
+        </div>
+        <div class="radio" id="winter">
+          <input type="radio" value="50">
+          <label for="winter">Winter</label>
+        </div>
+        <div class="radio" id="spring">
+          <input type="radio" value="10">
+          <label for="spring">Spring</label>
+        </div>
+      </div>
+
+      <div id="activity">
+        <h3>Which would you rather do?</h3>
+        <div class="radio" id="read">
+          <input type="radio" value="50" checked>
+          <label for="read">Read a good book</label>
+        </div>
+        <div class="radio" id="games">
+          <input type="radio" value="20">
+          <label for="games">Play video games</label>
+        </div>
+        <div class="radio" id="puzzles">
+          <input type="radio" value="10">
+          <label for="puzzles">Solve puzzles</label>
+        </div>
+        <div class="radio" id="sleep">
+          <input type="radio" value="1">
+          <label for="sleep">Sleep</label>
+        </div>
+      </div>
+
+      <div id="color">
+        <h3>What color appeals to you most?</h3>
+        <div class="radio" id="black">
+          <input type="radio" value="50" checked>
+          <label for="black">Black</label>
+        </div>
+        <div class="radio" id="mint">
+          <input type="radio" value="20">
+          <label for="mint">Mint</label>
+        </div>
+        <div class="radio" id="green">
+          <input type="radio" value="1">
+          <label for="green">Green</label>
+        </div>
+        <div class="radio" id="yellow">
+          <input type="radio" value="10">
+          <label for="yellow">Yellow</label>
+        </div>
+      </div>
+
+      <button type="submit" class="btn">Submit!</button>
+    </form>
+
+    <div id="html">
+      <h2>you should learn HTML and CSS!</h2>
+      <p>You seem a little unsure of where you want to go with programming. HTML and CSS will give you the foundation you need to build websites from the ground up! These two languages are essential to front-end web development and provide the basic skills you need to design attractive websites.</p>
+    </div>
+    <div id="sql">
+      <h2>you should learn SQL!</h2>
+      <p>SQL <em>pronounced "sequel"</em> is a data-driven language. It is ideal for anyone interested in data analysis. With SQL, you can learn to store information into separate data sets, allowing users to retrieve accurate results with a search query! It isn't good for building apps from scratch, but you don't seem to have an interest in that anyway. </p>
+    </div>
+    <div id="cSharp">
+      <h2>you should learn C#!</h2>
+      <p>C# is Microsoft's programming language. It is the language used by many game developers and mobile app creators. If you have any interest in game design, you will likely encounter C#. This language has a huge collection of libraries and frameworks to pull from. </p>
+    </div>
+    <div id="python">
+      <h2>You should learn Python!</h2>
+      <p>Your interests are well rounded. Python is a general-purpose programming language that has played an important part in data science and web development. This language is simple, but elegant, with a low barrier to entry. No matter what you want to create, Python will help you!</p>
+    </div>
+  </div>
+</body>
+</html>
+
