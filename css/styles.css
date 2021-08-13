@@ -31,6 +31,12 @@ img {
   display: block;
   margin: auto;
 }
+/* img .quiz {
+  max-height: 200px;
+  width:auto;
+  display:block;
+  margin: auto;
+} */
 
 .jumbotron {
   background-color: black;
