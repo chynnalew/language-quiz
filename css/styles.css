@@ -79,6 +79,7 @@ img {
   text-align: center;
   color: greenyellow;
   padding:10px;
+  font-style: italic;
 }
 .ans p {
   color:rgba(233, 198, 42, 0.842);
