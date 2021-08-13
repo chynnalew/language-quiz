@@ -14,24 +14,43 @@ $(document).ready(function() {
       $("#sql").hide();
       $("#cSharp").hide();
       $("#python").hide();
+      $("#steve").hide();
+      $("#quiz").fadeToggle("slow");
+     
     }
     else if (all >=70 && all <130) {
       $("#html").hide();
       $("#sql").show();
       $("#cSharp").hide();
       $("#python").hide();
+      $("#steve").hide();
+      $("#quiz").fadeToggle("slow");
+      
     }
     else if (all >= 130 && all <200) {
       $("#html").hide();
       $("#sql").hide();
       $("#cSharp").show();
       $("#python").hide();
+      $("#steve").hide();
+      $("#quiz").fadeToggle("slow");
+     
     }
-    else if (all >=200) {
+    else if (all >=200 && all < 2000) {
       $("#html").hide();
       $("#sql").hide();
       $("#cSharp").hide();
       $("#python").show();
+      $("#steve").hide();
+      $("#quiz").fadeToggle("slow");
+    }
+    else {
+      $("#html").hide();
+      $("#sql").hide();
+      $("#cSharp").hide();
+      $("#python").hide();
+      $("#quiz").fadeToggle("slow");
+      $("#steve").show();
     }
 
     $(".yourName").text(name);

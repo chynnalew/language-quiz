@@ -14,6 +14,10 @@
   display: none;
   color:lightgreen
 }
+#steve {
+  display: none;
+  color: lightgreen;
+}
 #quiz {
   position:center;
   margin: auto;
@@ -89,4 +93,11 @@ img {
 }
 .ans p {
   color:rgba(233, 198, 42, 0.842);
+}
+#refresh {
+  display:block;
+  margin:auto;
+  width: 300px;
+  margin-top: 30px;
+
 }
