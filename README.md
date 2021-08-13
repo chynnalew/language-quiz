@@ -12,7 +12,7 @@
 
 ## Description
 
-This application is a webpage housing a quiz that tells the user which programming language they should learn. This quiz can be taken multiple times without the need to refresh the page between uses.
+This application is a webpage housing a quiz that tells the user which programming language they should learn. Text input, dropdown selections, and radio buttons are used to receive user input.
 
 ## Setup/Installation Requirements
 
