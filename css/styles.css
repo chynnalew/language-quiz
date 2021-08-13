@@ -14,40 +14,72 @@
   display: none;
   color:lightgreen
 }
-
-body {
-  background-color: black;
-  font-family: 'andale Mono';
-}
 #quiz {
-  width:90%;
   position:center;
   margin: auto;
 }
+
+body {
+  background-image: url("../img/background2.gif");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'andale Mono';
+}
+img {
+  max-height: 100px;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
 .jumbotron {
   background-color: black;
-  color: greenyellow;
+  color: rgba(165, 247, 44, 0.815);
   border:rgb(185, 56, 185) 5px solid;
+  box-shadow: 3px 3px rgb(52, 149, 214), -20px 0 10px rgb(126, 30, 190);
+  margin-bottom: 0px;
+  margin-top: 20px;
 }
 .quizLayout {
-  color:rgb(233, 198, 42);
+  color:rgba(233, 198, 42, 0.842);
+  box-shadow: 3px 0px rgb(52, 149, 214), -20px 0 10px rgb(126, 30, 190);
+  padding: 20px;
+  background-color: black;
 }
 .radio {
   color:rgb(98, 203, 245);
+  background-color: black;
 }
 .button{
   display: inline-block;
   padding: 12px;
-  border: 3px solid #000000;
   margin: 10px;
   margin-left: 0px;
-  border-color: rgb(185, 56, 185);
+  border: rgb(185, 56, 185) 3px solid;
   color: greenyellow;
+  font-size: larger;
   background-color: black;
   text-align:center;
+  width: 30%;
   }
 .button:hover{
   cursor: crosshair;
-  color:#FFFFFF;
-  border-color:#FFFFFF;
+  color:ivory;
+  border-color:ivory;
   }
+.ans {
+  background-color: black;
+  border:rgb(185, 56, 185) 5px solid;
+  padding: 30px;
+  box-shadow: 3px 3px rgb(52, 149, 214), -20px 0 10px rgb(126, 30, 190);
+  margin-bottom: 30px;
+}
+.ans h2 {
+  font-weight: bolder;
+  text-align: center;
+  color: greenyellow;
+  padding:10px;
+}
+.ans p {
+  color:rgba(233, 198, 42, 0.842);
+}
